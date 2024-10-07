@@ -16,7 +16,10 @@ You need to install the following packages:
 
 You can install these packages by running:
 ```bash
-pip install opencv-python torch torchvision numpy pillow
+pip install opencv-python 
+pip install torch torchvision 
+pip install numpy pillow
+pip install matplotlib scikit-image
 ```
 
 ## Instructions
