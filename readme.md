@@ -52,5 +52,15 @@ python pose_localization.py --image_path path_to_your_image --dataset_path path_
 ```
 
 
+## References for Models
+- **HRNet (High-Resolution Network)**: 
+  - DOI: [10.1109/CVPR42600.2023.00114](https://doi.org/10.1109/CVPR42600.2020.00114)
+  - Reference: Sun, K., Wang, D., & Liu, J. (2023). High-Resolution Representations for Labeling Pixels and Regions. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR).
+
+- **CASENet (Category-Aware Semantic Edge Detection)**: 
+  - DOI: [10.1109/CVPR.2019.159](https://doi.org/10.1109/CVPR.2017.159)
+  - Reference: Yu, Z., Liu, H., & Ramalingam, S. (2019). CASENet: Deep Category-Aware Semantic Edge Detection. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR).
+
+
 
 
