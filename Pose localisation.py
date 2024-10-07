@@ -111,8 +111,8 @@ if __name__ == "__main__":
                               [0, 0, 1]])
 
 
-    object_3d_points = load_dubrovnik_3D_points('3D_points.3D') # Random 3D points as an example
-    object_3d_descriptors = np.random.rand(1000, 128)  # Random descriptors as an example
+    object_3d_points = load_dubrovnik_3D_points('3D_points.3D')
+    object_3d_descriptors = load_descriptors_Sift('3D_points.3D')
 
 
     main("query_image.jpg", object_3d_points, object_3d_descriptors, camera_matrix, method=1)
